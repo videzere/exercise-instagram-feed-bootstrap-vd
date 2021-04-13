@@ -5,3 +5,7 @@
 .nav-pills >  li > a {
     color: grey !important;
 }
+video {
+    max-width: 100% !important;
+    height: 360px;
+  }

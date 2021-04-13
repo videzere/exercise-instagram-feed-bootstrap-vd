@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -12,11 +12,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/1f98c278bf.js" crossorigin="anonymous"></script>
+    
   <!-- Title -->
   <title>Instagram Feed Boostrap</title>
 </head>
 
 <body>
+
   <div>
     <!-- Image and text -->
     <!-- nav-bar header-brand -->
@@ -42,7 +44,8 @@
                   <div class="modal-content m-0 p-2">
                     <div class="form-group">
                       <label for="message-text" class="col-form-label"></label>
-                      <textarea class="form-control" id="message-text"></textarea>
+                      <textarea class="form-control btn btn-outline-secondary bg-white text-dark text-left"
+                        id="message-text"></textarea>
                     </div>
                     <div>
                       <button type="button" class="btn btn-outline-secondary fas fa-camera text-black-50"></button>
@@ -68,7 +71,7 @@
                 <a class="dropdown-item" href="#">Another action</a>
                 <a class="dropdown-item" href="#">Something else here</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Logout</a>
+                <a class="dropdown-item" href="#">Log Out</a>
               </div>
             </li>
           </ul>
@@ -90,11 +93,52 @@
       <div class="tab-content" id="pills-tabContent">
         <!-- nav-pills 1 -->
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <div class="card-columns m-2">
+            <!-- card 1 -->
+            <div class="card border-0">
+              <img class="card-img-top" src="https://picsum.photos/id/104/600/400" alt="Card image cap">
+            </div>
+            <!-- card 2 -->
+            <div class="card border-0">
+              <img class="card-img-top" src="https://picsum.photos/id/40/600/400" alt="Card image cap">
+            </div>
+            <!-- card 3 -->
+            <div class="cardborder-0">
+              <img class="card-img-top" src="https://picsum.photos/id/180/600/400" alt="Card image cap">
+            </div>
+            <!-- card 4 -->
+            <div class="card border-0">
+              <img class="card-img-top" src="https://picsum.photos/id/488/600/400" alt="Card image cap">
+            </div>
+            <!-- card 5 -->
+            <div class="card border-0">
+              <video src="https://codingyaar.com/wp-content/uploads/video-in-bootstrap-card.mp4" autoplay loop>
+              </video>
+            </div>
+            <!-- card 6 -->
+            <div class="card border-0">
+              <img class="card-img-top" src="https://picsum.photos/id/237/600/400" alt="Card image cap">
+            </div>
+            <!-- card 7 -->
+            <div class="card border-0">
+              <img class="card-img-top" src="https://picsum.photos/id/1060/600/400" alt="Card image cap">
+            </div>
+            <!-- card 8 -->
+            <div class="card border-0">
+              <video autoplay muted>
+                <source src="https://assets.breatheco.de/apis/video/why-pair-programming" type="video/mp4" />
+              </video>
+            </div>
+            <!-- card 9 -->
+            <div class="card border-0">
+              <img class="card-img-top" src="https://picsum.photos/id/1083/600/400" alt="Card image cap">
+            </div>
 
+          </div>
         </div>
         <!-- nav-pills 2 -->
         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-          <div class="bg-secondary d-flex flex-column flex-wrap justify-content-center align-items-center m-2">
+          <div class="bg-light d-flex flex-column flex-wrap justify-content-center align-items-center m-2">
             <!-- card 1 -->
             <div class="card m-4" style="width: 40rem;">
               <div class="d-flex flex-row flex-wrap justify-content-between align-items-center m-0 p-2">
@@ -151,7 +195,7 @@
                 <h3 class="card-title m-0">And of course... food!</h3>
                 <p class="text-black-50 m-0">12/14</p>
               </div>
-              <img class="card-img-top" src="https://picsum.photos/id/1060/600/400" alt="Card image cap">
+              <img class="card-img-top" src="https://picsum.photos/id/488/600/400" alt="Card image cap">
               <div class="card-body p-2">
                 <h5 class="card-text">23 Likes</h5>
                 <p class="card-text">Because no photo feed is cool without some food on it!
@@ -168,11 +212,77 @@
                 <h3 class="card-title m-0">My first video</h3>
                 <p class="text-black-50 m-0">12/14</p>
               </div>
+              <video src="https://codingyaar.com/wp-content/uploads/video-in-bootstrap-card.mp4" autoplay loop>
+              </video>
+              <div class="card-body p-2">
+                <h5 class="card-text">23 Likes</h5>
+                <p class="card-text">Some video to test it! #BreatheCode</p>
+                <div class="d-flex flex-row flex-wrap justify-content-between align-items-center m-0">
+                  <p class="card-text text-black-50 far fa-heart"> Comment...</p>
+                  <i class="fas fa-ellipsis-v text-black-50"></i>
+                </div>
+              </div>
+            </div>
+            <!-- card 6 -->
+            <div class="card m-4" style="width: 40rem;">
+              <div class="d-flex flex-row flex-wrap justify-content-between align-items-center m-0 p-2">
+                <h3 class="card-title m-0">Some cute pet</h3>
+                <p class="text-black-50 m-0">12/14</p>
+              </div>
+              <img class="card-img-top" src="https://picsum.photos/id/237/600/400" alt="Card image cap">
+              <div class="card-body p-2">
+                <h5 class="card-text">23 Likes</h5>
+                <p class="card-text">The internet approves this cute dog... #BreatheCode</p>
+                <div class="d-flex flex-row flex-wrap justify-content-between align-items-center m-0">
+                  <p class="card-text text-black-50 far fa-heart"> Comment...</p>
+                  <i class="fas fa-ellipsis-v text-black-50"></i>
+                </div>
+              </div>
+            </div>
+            <!-- card 7 -->
+            <div class="card m-4" style="width: 40rem;">
+              <div class="d-flex flex-row flex-wrap justify-content-between align-items-center m-0 p-2">
+                <h3 class="card-title m-0">Coffe time</h3>
+                <p class="text-black-50 m-0">12/14</p>
+              </div>
               <img class="card-img-top" src="https://picsum.photos/id/1060/600/400" alt="Card image cap">
               <div class="card-body p-2">
                 <h5 class="card-text">23 Likes</h5>
-                <p class="card-text">Because no photo feed is cool without some food on it!
-                  #BreatheCode</p>
+                <p class="card-text">Sweet!... #BreatheCode</p>
+                <div class="d-flex flex-row flex-wrap justify-content-between align-items-center m-0">
+                  <p class="card-text text-black-50 far fa-heart"> Comment...</p>
+                  <i class="fas fa-ellipsis-v text-black-50"></i>
+                </div>
+              </div>
+            </div>
+            <!-- card 8 -->
+            <div class="card m-4" style="width: 40rem;">
+              <div class="d-flex flex-row flex-wrap justify-content-between align-items-center m-0 p-2">
+                <h3 class="card-title m-0">Try again</h3>
+                <p class="text-black-50 m-0">12/14</p>
+              </div>
+              <video autoplay muted>
+                <source src="https://assets.breatheco.de/apis/video/why-pair-programming" />
+              </video>
+              <div class="card-body p-2">
+                <h5 class="card-text">23 Likes</h5>
+                <p class="card-text">The best way to learn... #BreatheCode</p>
+                <div class="d-flex flex-row flex-wrap justify-content-between align-items-center m-0">
+                  <p class="card-text text-black-50 far fa-heart"> Comment...</p>
+                  <i class="fas fa-ellipsis-v text-black-50"></i>
+                </div>
+              </div>
+            </div>
+            <!-- card 9 -->
+            <div class="card m-4" style="width: 40rem;">
+              <div class="d-flex flex-row flex-wrap justify-content-between align-items-center m-0 p-2">
+                <h3 class="card-title m-0">Finally</h3>
+                <p class="text-black-50 m-0">12/14</p>
+              </div>
+              <img class="card-img-top" src="https://picsum.photos/id/1083/600/400" alt="Card image cap">
+              <div class="card-body p-2">
+                <h5 class="card-text">23 Likes</h5>
+                <p class="card-text">Go to rest... #BreatheCode</p>
                 <div class="d-flex flex-row flex-wrap justify-content-between align-items-center m-0">
                   <p class="card-text text-black-50 far fa-heart"> Comment...</p>
                   <i class="fas fa-ellipsis-v text-black-50"></i>
@@ -182,7 +292,6 @@
 
           </div>
         </div>
-
       </div>
     </div>
   </div>
@@ -197,6 +306,7 @@
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

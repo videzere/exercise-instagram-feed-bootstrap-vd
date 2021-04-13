@@ -1,0 +1,7 @@
+.nav-pills > li > a.active{
+    background-color:silver !important;
+    color:white !important;
+}
+.nav-pills >  li > a {
+    color: silver !important;
+}
